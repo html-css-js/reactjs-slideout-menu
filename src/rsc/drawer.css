@@ -1,0 +1,69 @@
+a
+{
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: blue;
+}
+
+a:hover
+{
+  color: green;
+  text-decoration: none;
+}
+
+.nav
+{
+  width:25%;
+  height: 100vh;
+  background-color: grey;
+}
+
+.nav a {
+  color: white;
+}
+
+.nav a:hover {
+  color: purple;
+}
+
+.nav a:active {
+  color: purple;
+  text-decoration: none;
+}
+
+.nav li
+{
+  list-style: none;
+  font-size: 2em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.nav li:hover
+{
+  background-color: #333;
+}
+
+.nav-closed
+{
+  position: fixed;
+  top: 0px;
+  left: -25%;
+  transition: all .6s ease-in-out;
+}
+
+.nav-open
+{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+
+  transition: all .6s ease-in-out;
+}
+
+ul
+{
+  margin-left: -18%;
+  align-items: center;
+}

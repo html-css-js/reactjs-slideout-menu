@@ -1,12 +1,14 @@
 import React from "react";
+import DrawerComponent from "./DrawerComponent";
 
-export default class Layout extends React.Component {
-
-  render() {
+var Layout = React.createClass({
+  render: function() {
     return (
       <div>
-        <h1>Hello World!</h1>
+        <DrawerComponent />
       </div>
     );
   }
-}
+});
+
+export default Layout;
